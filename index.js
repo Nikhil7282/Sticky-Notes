@@ -33,7 +33,7 @@ function createNoteElement(id,content){
         const doDelete=confirm("Are you sure you wish to delete the note ?");
 
         if(doDelete){
-            deleteNote(id,element,val);
+            deleteNote(id,element);
         }
     });
 
